@@ -1,0 +1,28 @@
+aid: monese
+name: Monese
+description: 'Monese is a company surfaced as a portfolio company of anthemis, seedcamp and added to the
+  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
+  enrichment pipeline.'
+url: https://raw.githubusercontent.com/api-evangelist/monese/refs/heads/main/apis.yml
+x-type: company
+x-source: vc-portfolio
+x-backed-by:
+- anthemis
+- seedcamp
+x-tier: stub
+x-tier-reason: portfolio-lead
+specificationVersion: '0.20'
+created: '2026-07-17'
+modified: '2026-07-17'
+tags:
+- Company
+- Fintech
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: http://monese.com
