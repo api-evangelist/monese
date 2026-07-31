@@ -1,8 +1,26 @@
 aid: monese
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monese.png
 name: Monese
-description: 'Monese is a company surfaced as a portfolio company of anthemis, seedcamp and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Monese is a London-founded fintech that provides mobile money accounts
+  to consumers across Europe. Operating as a licensed Electronic Money Institution
+  (EMI) rather than a traditional bank, Monese lets over two million users open an
+  account in minutes and then spend, send, and save money directly from a smartphone
+  app. Its product surface covers multi-currency and local accounts, international
+  money transfers, physical and virtual debit cards, budgeting and savings tools,
+  and credit-building features. Monese is a consumer-facing mobile application and
+  does not publish a public developer API, developer portal, or API documentation
+  as of this enrichment pass.'
 url: https://raw.githubusercontent.com/api-evangelist/monese/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Banking
+- Payments
+- Mobile
+- Money Transfer
+- Digital Banking
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +49,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://monese.com
+  url: https://monese.com
+- type: Blog
+  url: https://monese.com/blog
+- type: Pricing
+  url: https://monese.com/our-pricing
+- type: PrivacyPolicy
+  url: https://monese.com/privacy
+- type: TermsOfService
+  url: https://monese.com/terms
+- type: Support
+  url: https://support.monese.com
+- type: StatusPage
+  url: https://status.monese.com
+- type: DomainSecurity
+  url: security/monese-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
